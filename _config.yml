@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: zh1的个人博客
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
-language: en
+author: zh1
+language: zh-CN
 timezone: ''
 
 # URL
@@ -102,3 +102,5 @@ theme: volantis
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+  repo: git@github.com:nameZh1/nameZh1.github.io.git
+  branch: gh-pages
