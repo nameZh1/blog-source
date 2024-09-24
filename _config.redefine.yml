@@ -11,11 +11,11 @@
 # Docs: https://redefine-docs.ohevan.com/basic/info
 info:
   # Site title
-  title: Theme Redefine
+  title: COMPETE WITH SHADOW
   # Author name
-  author: The Redefine Team
+  author: ZH1
   # Site URL
-  url: https://redefine.ohevan.com
+  url: https://XXXX
 # BASIC INFORMATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
@@ -23,11 +23,13 @@ info:
 # Docs: https://redefine-docs.ohevan.com/basic/defaults
 defaults:
   # Favicon
-  favicon: /images/redefine-favicon.svg
+  # favicon: /images/redefine-favicon.svg
+  favicon: /images/redefine-favicon.JPG
   # Site logo
-  logo: 
-  # Site avatar
-  avatar: /images/redefine-avatar.svg
+  logo: /images/redefine-favicon.JPG
+  # Site avatar 头像
+  # avatar: /images/redefine-avatar.svg
+  avatar: /images/redefine-favicon.JPG
 # IMAGE CONFIGURATION <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
 
