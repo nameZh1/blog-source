@@ -122,8 +122,10 @@ home_banner:
   style: fixed # static or fixed
   # Home banner image
   image: 
-    light: /images/wallhaven-wqery6-light.webp # light mode
-    dark: /images/wallhaven-wqery6-dark.webp # dark mode
+    # light: /images/wallhaven-wqery6-light.webp # light mode
+    # dark: /images/wallhaven-wqery6-dark.webp # dark mode
+    light: /images/dark-bg.png # light mode
+    dark: /images/light-bg.png # dark mode
   # Home banner title
   title: COMPETE WITH SHADOW
   # Home banner subtitle
@@ -415,6 +417,9 @@ inject:
     -
 # INJECT <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< end
 
+# all_minifier >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
+all_minifier: true
+# all_minifier >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> end
 
 # PLUGINS >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> start
 # Docs: https://redefine-docs.ohevan.com/plugins
@@ -424,9 +429,17 @@ plugins:
     enable: false # Whether to enable
   # Aplayer. See https://github.com/DIYgod/APlayer
   aplayer:
-    enable: false # Whether to enable
+    enable: true # Whether to enable
     type: fixed # fixed, mini
     audios:
+      - name: Imagine # audio name
+        artist: John Lennon # audio artist
+        url: https://evan.beee.top/music/Imagine%20-%20John%20Lennon.mp3 # audio url
+        cover: https://evan.beee.top/music/covers/Lennon_Imagine_Sleeve_1975.jpg # audio cover
+      - name: Something Just Like This
+        artist: Coldplay
+        url: https://evan.beee.top/music/Something%20Just%20Like%20This%20-%20The%20Chainsmokers%E3%80%81Coldplay.mp3
+        cover: https://evan.beee.top/music/covers/Something_Just_Like_This.png
       - name: # audio name
         artist: # audio artist
         url: # audio url
