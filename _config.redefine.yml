@@ -204,7 +204,7 @@ navbar:
     Archives: 
       path: /archives 
       icon: fa-regular fa-archive # can be empty
-    Status: 
+    Essays: 
       path: /essays
       icon: 
     # Status: 
